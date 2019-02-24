@@ -31,7 +31,7 @@ try:
                     pi.set_PWM_dutycycle(blue_pin, b * 255)
                     pi.set_PWM_dutycycle(red_pin, r *255)
 
-                    time.sleep(0.3)
+                    time.sleep(0.01)
 
 finally:
     pi.set_PWM_dutycycle(green_pin, 0)
